@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مولد الصفحات الجاهزة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>اختر قالب HTML:</h1>
+    <div class="template-selection">
+        <button onclick="loadTemplate('template1.html')">📄 قالب 1</button>
+        <button onclick="loadTemplate('template2.html')">📄 قالب 2</button>
+        <button onclick="loadTemplate('template3.html')">📄 قالب 3</button>
+    </div>
+
+    <h2>معاينة وتعديل القالب:</h2>
+    <iframe id="preview" src="" frameborder="0"></iframe>
+
+    <button id="downloadBtn">⬇️ تحميل الكود</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
